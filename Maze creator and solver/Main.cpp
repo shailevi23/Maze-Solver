@@ -14,7 +14,7 @@ char** createMazeArrFor1(int rows, int cols);
 char** createMazeArrFor2(int rows, int cols);
 void checkDimentions(int rows, int  cols);
 
-int main()
+int main() 
 {
 	srand((unsigned)time(NULL));
 	bool flag = false;

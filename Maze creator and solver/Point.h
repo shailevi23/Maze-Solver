@@ -16,7 +16,7 @@ public:
 	Point();
 	Point(int row, int col);
 	Point(const Point& other);
-	~Point();
+	~Point(); 
 	int getRow() const;
 	int getCol() const;
 	void setRow(int row);

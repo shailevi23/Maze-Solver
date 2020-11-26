@@ -12,7 +12,7 @@ class Node
 {
 private:
 	int row, col;
-	Node* next;
+	Node* next; 
 
 public:
 	Node();

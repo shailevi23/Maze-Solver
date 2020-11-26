@@ -16,7 +16,7 @@ Node::Node(int rows, int cols)
 Node::Node(Node node, Node* next)
 {
 	this->row = node.row;
-	this->col = node.col;
+	this->col = node.col; 
 	this->next = next;
 }
 

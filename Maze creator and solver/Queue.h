@@ -13,7 +13,7 @@ class Queue
 {
 private:
 	Point *arr;		// array to store queue elements
-	int capacity;	// max capacity of the queue
+	int capacity;	// max capacity of the queue 
 	int firstElement;		// first element in queue
 	int lastElement;		// last element in queue
 	int sizeOfQueue;		// current size of the queue

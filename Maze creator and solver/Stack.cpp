@@ -23,7 +23,7 @@ void Stack::MakeEmpty()
 
 bool Stack::IsEmpty()
 {
-	if (top == NULL)
+	if (top == NULL) 
 		return true;
 	return false;
 }
